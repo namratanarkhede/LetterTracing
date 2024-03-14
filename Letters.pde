@@ -63,7 +63,6 @@ void mousePressed() {
 void createShapes() {
   letters = new Letters[] {
 
-
   // A
   new Letter(new Vertex[]{
   new Vertex(LETTER_WIDTH/2, 0),
@@ -74,8 +73,32 @@ void createShapes() {
   new Vertex(LETTER_WIDTH*0.3, LETTER_HEIGHT*0.4)
   }),
 
-  // b
-
+  // B
+  
+new Letter(new Vertex[]{
+  new Vertex(0, 0),
+  new Vertex(0, LETTER_HEIGHT),
+  new Vertex(LETTER_WIDTH/3, LETTER_HEIGHT),
+  new Vertex(LETTER_WIDTH/2, LETTER_HEIGHT*0.9),
+  new Vertex(LETTER_WIDTH/1.5, LETTER_HEIGHT*0.8),
+  new Vertex(LETTER_WIDTH/1.5, LETTER_HEIGHT*0.6),
+  new Vertex(LETTER_WIDTH/9, LETTER_HEIGHT*0.5),
+  new Vertex(LETTER_WIDTH/1.5, LETTER_HEIGHT*0.3),
+  new Vertex(LETTER_WIDTH/1.5, LETTER_HEIGHT*0.2),
+  new Vertex(LETTER_WIDTH/2, 0),
+  new Vertex(LETTER_WIDTH/29, 0)
+}),
+  // B
+  //new Letter(new Vertex[]{
+  //  new Vertex(0, 0),
+  //  new Vertex(0, LETTER_HEIGHT),
+  //  new Vertex(LETTER_WIDTH * 0.3, LETTER_HEIGHT),
+  //  new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT * 0.9),
+  //  new Vertex(LETTER_WIDTH * 0.0, LETTER_HEIGHT * 0.6),
+  //  new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT * 0.4),
+  //  new Vertex(LETTER_WIDTH * 0.5, LETTER_HEIGHT * 0.2),
+  //  new Vertex(0, LETTER_HEIGHT * 0.0),
+  //}),
 
   // C
    new Letter(new Vertex[]{
@@ -92,11 +115,11 @@ void createShapes() {
 new Letter(new Vertex[]{
   new Vertex(0, 0),
   new Vertex(0, LETTER_HEIGHT),
-  new Vertex(LETTER_WIDTH * 0.3, LETTER_HEIGHT),
-  new Vertex(LETTER_WIDTH * 0.3,LETTER_HEIGHT*1),
-  new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT*0.8 ),
+  new Vertex(LETTER_WIDTH * 0.4, LETTER_HEIGHT),
+  new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT * 0.8),
   new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT * 0.2),
-  new Vertex(LETTER_WIDTH * 0.0, LETTER_HEIGHT*0.0),
+  new Vertex(LETTER_WIDTH * 0.4, 0),
+  new Vertex(0, 0),
 }),
   
   
@@ -154,17 +177,25 @@ new Letter(new Vertex[]{
 
   // J
   new Letter(new Vertex[]{
+    new Vertex(0, 0),
     new Vertex(LETTER_WIDTH, 0),
-    new Vertex(LETTER_WIDTH * 0.7, 0),
     new Vertex(LETTER_WIDTH * 0.5, 0),
     new Vertex(LETTER_WIDTH * 0.5, LETTER_HEIGHT),
-    new Vertex(LETTER_WIDTH * 0.7, LETTER_HEIGHT),
-    new Vertex(LETTER_WIDTH, LETTER_HEIGHT),
+    new Vertex(LETTER_WIDTH * 0.1, LETTER_HEIGHT),
+    new Vertex(LETTER_WIDTH * 0.1, LETTER_HEIGHT*0.8),
   }),
 
   
 
   // K
+  new Letter(new Vertex[]{
+    new Vertex(0, 0),
+    new Vertex(0, LETTER_HEIGHT),
+    new Vertex(0, LETTER_HEIGHT * 0.5),
+    new Vertex(LETTER_WIDTH, 0),
+    new Vertex(0, LETTER_HEIGHT * 0.5),
+    new Vertex(LETTER_WIDTH, LETTER_HEIGHT),
+  }),
 
   // L
   new Letter(new Vertex[]{
@@ -192,7 +223,8 @@ new Letter(new Vertex[]{
 
 
     // O
-  new Letter(new Vertex[]{
+    new Letter(new Vertex[]{
+    new Vertex(LETTER_WIDTH * 0.7, 0),
     new Vertex(LETTER_WIDTH * 0.3, 0),
     new Vertex(0, LETTER_HEIGHT * 0.3),
     new Vertex(0, LETTER_HEIGHT * 0.7),
@@ -201,13 +233,39 @@ new Letter(new Vertex[]{
     new Vertex(LETTER_WIDTH, LETTER_HEIGHT * 0.7),
     new Vertex(LETTER_WIDTH, LETTER_HEIGHT * 0.3),
     new Vertex(LETTER_WIDTH * 0.7, 0),
-    new Vertex(0, LETTER_HEIGHT*0.0),
-  }),
+}),
 
   // P
+  new Letter(new Vertex[]{
+    new Vertex(0, LETTER_HEIGHT),
+    new Vertex(0, 0),
+    new Vertex(LETTER_WIDTH * 0.8, 0),
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT * 0.4),
+    new Vertex(0, LETTER_HEIGHT * 0.4),
+}),
+
   // Q
   // R
+  new Letter(new Vertex[]{
+    new Vertex(0, LETTER_HEIGHT),
+    new Vertex(0, 0),
+    new Vertex(LETTER_WIDTH * 0.8, 0),
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT * 0.4),
+    new Vertex(0, LETTER_HEIGHT * 0.4),
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT),
+}),
+
   // S
+new Letter(new Vertex[]{
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT * 0.1),
+    new Vertex(LETTER_WIDTH * 0.2, LETTER_HEIGHT * 0.1),
+    new Vertex(LETTER_WIDTH * 0.1, LETTER_HEIGHT * 0.2),
+    new Vertex(LETTER_WIDTH * 0.1, LETTER_HEIGHT * 0.4),
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT * 0.4),
+    new Vertex(LETTER_WIDTH * 0.8, LETTER_HEIGHT * 0.6),
+    new Vertex(LETTER_WIDTH * 0.1, LETTER_HEIGHT * 0.6),
+}),
+
   // T
   new Letter(new Vertex[]{
     new Vertex(0, 0),
